@@ -12,3 +12,8 @@
   /* background: url(../images/big-logo.png) no-repeat;
   height: 85px, */
 }
+.cropped-logo {
+  background: url(../images/logo-cropped.png) no-repeat;
+  height: 200px;
+  background-size: contain;
+}
