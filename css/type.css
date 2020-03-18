@@ -12,3 +12,6 @@ nav a {
   font-size: 0.9em;
 }
 
+a.active {
+  color: #d35266;
+}
