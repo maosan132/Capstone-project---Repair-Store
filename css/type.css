@@ -7,3 +7,9 @@ body {
 .big-logo {
   font-family: 'Maven Pro', sans-serif;
 }
+
+nav a,
+.btn {
+  font-size: 0.8em;
+}
+
