@@ -1,6 +1,6 @@
 .logo {
-  background: url(../images/logo.png) no-repeat;
-  height: 40px;
+  background: url() no-repeat;
+ max-width: 139px;
 }
 
 .user-profile {

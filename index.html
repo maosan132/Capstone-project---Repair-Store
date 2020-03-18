@@ -16,29 +16,29 @@
 </head>
 
 <body>
-  <header class="">
-    <div class="container-fluid bg-dark py-2">
-      <div class="row topbar">
-        <div class="container-fluid px-0 mx-0 px-md-5 mx-md-4 d-flex">
-          <div class="col-2 logo"></div>
-          <nav class="col-6 col-sm-7 d-flex flex-row align-items-center">
-            <a class="nav-item nav-link text-secondary" href="#"><small>
-                <i class="fas fa-home pr-1 pr-md-3"></i>HOME</small></a>
-            <a class="nav-item nav-link text-secondary" href="#"><small>
-                <i class="fas fa-paint-roller pr-1 pr-md-3"></i>PRODUCTS</small></a>
-            <a class="nav-item nav-link text-secondary" href="#"><small>
-                <i class="fas fa-shopping-cart pr-1 pr-md-3"></i>PURCHASE LIST</small></a>
-            <!-- <button type="button" class="btn bg-zattix rounded-0 ml-4 btn-sm">GRAB LAST OFFERS</button> -->
-            <button type="button" class="btn bg-zattix rounded-0 btn-sm ml-4 my-2 d-none d-md-block">GRAB LAST OFFERS</button>
-          </nav>
-          <div class="col-2  col-md-3 login ml-auto d-flex align-items-center justify-content-end">
-            <span class="inbox"><i class="fas fa-inbox text-white-50 d-none d-md-block"><span
-                  class="badge badge-danger position-relative p-0">19</span></i>
-            </span>
-            <span class=" user-name text-white-50 px-2 d-none d-md-block">Jhon Doe</span>
-            <div class="rounded-circle user-profile d-inline-block">
-              <img class="img-fluid rounded-circle" src="images/face_mao.svg" alt='some content' /></a>
-            </div>
+  <header class="bg-dark py-2">
+    <div class="navbar">
+      <div class="container">
+        <div class="logo"> <img class="" src="images/logo.png" alt="main logo"></div>
+        <nav class="d-flex align-items-center">
+          <a class="nav-item nav-link text-secondary" href="#"><small>
+              <i class="fas fa-home pr-1 pr-md-3 d-inline"></i>HOME</small></a>
+          <a class="nav-item nav-link text-secondary" href="#"><small>
+              <i class="fas fa-paint-roller pr-1 pr-md-3 d-inline"></i>PRODUCTS</small></a>
+          <a class="nav-item nav-link text-secondary text-nowrap" href="#"><small>
+              <i class="fas fa-shopping-cart pr-1 pr-md-3 d-inline"></i>PURCHASE LIST</small></a>
+          <!-- <button type="button" class="btn bg-zattix rounded-0 ml-4 btn-sm">GRAB LAST OFFERS</button> -->
+          <button type="button"
+            class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block text-nowrap text-white">GRAB LAST
+            OFFERS</button>
+        </nav>
+        <div class="mr-1 login d-flex align-items-center justify-content-end">
+          <span class="inbox"><i class="fas fa-inbox text-white-50 d-none d-md-block"><span
+                class="badge badge-danger position-relative p-0">19</span></i>
+          </span>
+          <span class=" user-name text-white-50 px-2 d-none d-md-block">Jhon Doe</span>
+          <div class="rounded-circle user-profile d-inline-block">
+            <img class="img-fluid rounded-circle" src="images/face_mao.svg" alt='some content' /></a>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@
         <h1 class="big-logo display-4 font-weight-bolder text-white pb-1">REPAIR<br>STORE</h1>
         <p class="text-white">Finding the right solution to each of yout house repairments couldn´t be simpler than
           this!</p>
-        <form class="d-flex flex-row justify-content-center pt-3">
+        <form class="row d-flex flex-row justify-content-center pt-3">
           <div class="form-group col-auto pr-1">
             <label for="formControlSelect1" hidden>label</label>
             <select class="form-control rounded-0" id="formControlSelect1">
@@ -62,16 +62,17 @@
               <option>Another</option>
             </select>
           </div>
-          <div class="form-group col-4 pl-0 pr-1">
+          <div class="form-group col-auto col-md-4 pl-0 pr-1">
             <label for="formControlInput1" hidden>search</label>
-            <input type="text" class="form-control rounded-0" id="formControlInput1" placeholder="What are you looking for?">
+            <input type="text" class="form-control rounded-0" id="formControlInput1"
+              placeholder="What are you looking for?">
           </div>
-          <div class="form-group col-4 pl-0 pr-1">
+          <div class="form-group col-auto pl-0 pr-1 d-none d-md-block">
             <label for="formControlInput2" hidden>city</label>
             <input type="text" class="form-control rounded-0" id="formControlInput1" placeholder="City">
           </div>
 
-          <button type="submit" class="btn btn-dark rounded-0 mb-3 ">Search</button>
+          <button type="submit" class="col-auto btn btn-dark rounded-0 mb-3 ">Search</button>
 
         </form>
       </div>
