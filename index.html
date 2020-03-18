@@ -15,18 +15,18 @@
   <title>Repair Store - The place to heal your house</title>
 </head>
 
-<body class="bg-dark">
-  <header class="bg-dark py-2">
+<body class="bg-section">
+  <header class="bg-dark py-2 px-md-5">
     <div class="navbar">
-      <div class="container">
+      <div class="container-fluid">
         <div class="logo"> <img class="" src="images/logo.png" alt="main logo"></div>
         <nav class="d-flex align-items-center mr-auto ">
-          <a class="nav-item nav-link text-lightgray active ml-md-5" href="#"><small>
-              <i class="fas fa-home pr-1 pr-md-3 d-inline"></i>HOME</small></a>
-          <a class="nav-item nav-link text-lightgray" href="#"><small>
-              <i class="fas fa-paint-roller pr-1 pr-md-3 d-inline"></i>PRODUCTS</small></a>
-          <a class="nav-item nav-link text-lightgray text-nowrap" href="#"><small>
-              <i class="fas fa-shopping-cart pr-1 pr-md-3 d-inline"></i>PURCHASE LIST</small></a>
+          <a class="nav-item nav-link text-lightgray active ml-md-5" href="#">
+            <i class="fas fa-home pr-1 pr-md-3 d-inline"></i>HOME</a>
+          <a class="nav-item nav-link text-lightgray" href="#">
+            <i class="fas fa-paint-roller pr-1 pr-md-3 d-inline"></i>PRODUCTS</a>
+          <a class="nav-item nav-link text-lightgray text-nowrap" href="#">
+            <i class="fas fa-shopping-cart pr-1 pr-md-3 d-inline"></i>PURCHASE LIST</a>
           <!-- <button type="button" class="btn bg-zattix rounded-0 ml-4 btn-sm">GRAB LAST OFFERS</button> -->
           <button type="button"
             class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block text-nowrap text-white">GRAB LAST
@@ -44,17 +44,16 @@
       </div>
     </div>
   </header>
+
   <main>
-    <section class="jumbotron jumbotron-fluid text-center bg-hero pb-4">
+    <section class="jumbotron jumbotron-fluid text-center bg-pink pb-4 mb-0">
       <div class="container">
-        <h1 class="big-logo display-4 font-weight-bolder text-white pb-1">REPAIR<br>STORE</h1>
-        <p class="text-white d-none d-md-block">Finding the right solution to each of your house repairments couldn´t be
-          simpler than
-          this!</p>
-        <p class="text-white d-block d-md-none">Finding the right solution to each of your <br>house repairments
-          couldn´t be simpler than
-          this!</p>
-        <form class="row d-flex flex-row justify-content-center pt-3">
+        <h1 class="big-logo display-4 font-weight-bolder text-white pb-2">REPAIR<br>STORE</h1>
+        <p class="lead text-white d-none d-md-block">Finding the right solution to each of your house repairments
+          couldn´t be simpler than this!</p>
+        <p class="lead text-white d-block d-md-none">Finding the right solution to each of your <br>house repairments
+          couldn´t be simpler than this!</p>
+        <form class="row d-flex flex-row justify-content-center pt-4">
           <div class="form-group col-auto col-md-3 pr-1">
             <label for="formControlSelect1" hidden>label</label>
             <select class="form-control rounded-0" id="formControlSelect1">
@@ -75,12 +74,38 @@
             <label for="formControlInput2" hidden>city</label>
             <input type="text" class="form-control rounded-0" id="formControlInput1" placeholder="City">
           </div>
-
           <button type="submit" class="col-auto btn btn-dark rounded-0 mb-3 ">Search</button>
-
         </form>
       </div>
     </section>
+
+    <section class="ads border-bottom bg-clear" >
+      <div class="container py-5">
+        <h6 class="">HOT ADS</h6>
+        <div class="row">
+          <div class="col-auto">
+            <div class="d-flex position-relative">
+              <div class="arrows-ad position-absolute bg-darkgray p-2">
+              </div>
+              <img class="img-fluid" src='https://placehold.it/300X180/888888?text=productAd' alt='some content' />
+            </div>
+          </div>
+          <div class="col-7">
+            <h6 class=" ad-info">THIS PRODUCT ROCKS</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aperiam, ducimus ipsa modi vero quam
+              delectus quasi in eum non reiciendis maxime eius porro pariatur numquam ad ea exercitationem voluptate.
+            </p>
+            <p> Another line of text</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-pink text-light px-4">$450</button>
+              <button type="button" class="btn btn-pink text-light border-left px-4"><i class="fas fa-shopping-cart pr-2 "></i>Middle</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    .
     <section class="carousel ">
       <div id="carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -98,7 +123,8 @@
                     <h6 class="card-title product-name mb-1">Card title</h6>
                     <p class="card-text status text-zattix mb-1">Used</p>
                     <p class="more-text mb-1">From: San Francisco, US</p>
-                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
+                    <span class="plus text-lightgray font-weight-light p-2 px-3 d-inline-block border">+</span><span
+                      class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
                   </div>
                 </div>
                 <div class="card rounded-0">
@@ -111,7 +137,8 @@
                     <h6 class="card-title product-name mb-1">Card title</h6>
                     <p class="card-text status text-zattix mb-1">Used</p>
                     <p class="more-text mb-1">From: San Francisco, US</p>
-                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
+                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span
+                      class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
                   </div>
                 </div>
                 <div class="card rounded-0">
@@ -124,7 +151,8 @@
                     <h6 class="card-title product-name mb-1">Card title</h6>
                     <p class="card-text status text-zattix mb-1">Used</p>
                     <p class="more-text mb-1">From: San Francisco, US</p>
-                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
+                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span
+                      class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
                   </div>
                 </div>
                 <div class="card rounded-0">
@@ -137,7 +165,8 @@
                     <h6 class="card-title product-name mb-1">Card title</h6>
                     <p class="card-text status text-zattix mb-1">Used</p>
                     <p class="more-text mb-1">From: San Francisco, US</p>
-                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
+                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span
+                      class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
                   </div>
                 </div>
                 <div class="card rounded-0">
@@ -150,7 +179,8 @@
                     <h6 class="card-title product-name mb-1">Card title</h6>
                     <p class="card-text status text-zattix mb-1">Used</p>
                     <p class="more-text mb-1">From: San Francisco, US</p>
-                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
+                    <span class="plus text-lightgray font-weight-bolder p-2 d-inline-block">+</span><span
+                      class="text-zattix price font-weight-bolder float-right d-inline-block">$450</span>
                   </div>
                 </div>
               </div>

@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:900&display=swap');
 
 body {
-  font-family: "Helvetica Neue", serif!important;
+  font-family: "Roboto", sans-serif;
+  color: #888;
+  line-height: 1;
+  font-size: 14px;
 }
 
 .big-logo {
@@ -12,6 +15,16 @@ nav a {
   font-size: 0.9em;
 }
 
-a.active {
+a.active,
+.ad-info {
   color: #d35266;
+}
+
+.plus {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.btn-zattix {
+  font-size: 14px;
 }

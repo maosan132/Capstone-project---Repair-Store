@@ -6,7 +6,7 @@
   color: #d35266;
 }
 
-.bg-hero {
+.bg-pink {
   background: #ca5668 url(../images/logo-cropped.svg) no-repeat 5% center/contain;
 }
 
@@ -24,4 +24,16 @@
 
 .text-darkgray {
   color: #383838;
+}
+
+.btn-pink {
+  background: #d35266 ;  
+}
+
+.bg-section {
+  background: #f6f6f6;
+}
+
+.bg-clear {
+  background: #fefefe;
 }
