@@ -9,6 +9,9 @@
   height: 40px;
 }
 
+.img-ad {
+  background-size: cover 50%!important;
+}
 .arrows-ad {
   bottom: 0;
   right: 0;
