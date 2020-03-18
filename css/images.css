@@ -8,12 +8,12 @@
   width: 40px;
   height: 40px;
 }
-
+  /*
 .big-logo {
-  /* background: url(../images/big-logo.png) no-repeat;
-  height: 85px, */
+ background: url(../images/big-logo.png) no-repeat;
+  height: 85px, 
 }
-/* .bg-zattix .container{
+ .bg-zattix .container{
   background: url(../images/logo-cropped.png) no-repeat;
   height: 200px;
   background-size: contain;

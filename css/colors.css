@@ -1,9 +1,13 @@
 .bg-zattix {
-  background: #d35266 url(../images/logo-cropped.svg) no-repeat 5% center/contain;  
+  background: #d35266 ;  
 }
 
 .text-zattix {
   color: #d35266;
+}
+
+.bg-hero {
+  background: #ca5668 url(../images/logo-cropped.svg) no-repeat 5% center/contain;
 }
 
 .bg-lightgray {
