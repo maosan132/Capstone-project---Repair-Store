@@ -10,6 +10,10 @@
   background: #ca5668 url(../images/logo-cropped.svg) no-repeat 5% center/contain;
 }
 
+.text-pink {
+  color: #d35266 ;  
+}
+
 .bg-lightgray {
   background: #888;
 }
