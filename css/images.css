@@ -1,5 +1,6 @@
 .logo {
   background: url(../images/logo.png) no-repeat;
+  height: 40px;
 }
 
 .user-profile {
@@ -12,8 +13,9 @@
   /* background: url(../images/big-logo.png) no-repeat;
   height: 85px, */
 }
-.cropped-logo {
+/* .bg-zattix .container{
   background: url(../images/logo-cropped.png) no-repeat;
   height: 200px;
   background-size: contain;
-}
+
+} */

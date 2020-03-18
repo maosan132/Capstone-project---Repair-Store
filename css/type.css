@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:900&display=swap');
+
 body {
   font-family: "Helvetica Neue", serif!important;
 }
 
 .big-logo {
-  font-family: verdana
+  font-family: 'Maven Pro', sans-serif;
 }
