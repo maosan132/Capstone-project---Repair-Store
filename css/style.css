@@ -40,6 +40,7 @@ header {
 
 .plus:hover {
   border-color: #d35266 !important;
+  background: #383838;
   color: #d35266 !important;
   cursor: pointer;
 }

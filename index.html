@@ -54,7 +54,7 @@
         <p class="lead text-white d-block d-md-none">Finding the right solution to each of your <br>house repairments
           couldn´t be simpler than this!</p>
         <form class="row d-flex flex-row justify-content-center pt-4">
-          <div class="form-group col-auto col-md-3 pr-1">
+          <!-- <div class="form-group col-auto col-md-3 pr-1">
             <label for="formControlSelect1" hidden>label</label>
             <select class="form-control rounded-0" id="formControlSelect1">
               <option class="">Select option</option>
@@ -64,6 +64,17 @@
               <option>Anchors</option>
               <option>Another</option>
             </select>
+          </div> -->
+          <div class="dropdown col-auto col-md-3 mr-n1">
+            <a class="btn btn-light rounded-0 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              All departments
+            </a>          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Adhesives</a>
+              <a class="dropdown-item" href="#">Waterproofing</a>
+              <a class="dropdown-item" href="#">Coverings</a>              
+              <a class="dropdown-item" href="#">Anchors</a>
+            </div>
           </div>
           <div class="form-group col-auto col-md-4 pl-0 pr-1">
             <label for="formControlInput1" hidden>search</label>
@@ -441,7 +452,7 @@
         </div>
       </div>
     </div>
-    
+
     <section class="carousel py-4 container">
       <div id="carousel3" class="carousel slide" data-ride="carousel" class="row justify-content-between">
         <div class="carousel-inner">
@@ -586,7 +597,7 @@
         </div>
       </div>
     </section>
-    <section class="about border-bottom border-top bg-clear">
+    <section class="about  border-top bg-clear">
       <div class="container-xl py-4">
         <div class="row">
           <div class="col-3 col-md-3 text-center">
@@ -649,7 +660,8 @@
     </section>
 
   </main>
-  <footer class="copyright border-bottom border-top bg-clear">
+
+  <footer class="copyright border-top bg-clear">
     <div class="container-xl py-2">
       <div class="row">
         <div class="col text-center">
@@ -660,9 +672,11 @@
       </div>
     </div>
   </footer>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
