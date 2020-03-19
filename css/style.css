@@ -41,16 +41,13 @@ header {
 .plus:hover {
   border-color: #d35266 !important;
   color: #d35266 !important;
+  cursor: pointer;
 }
 
 .card {
   margin-left: 4px !important;
   margin-right: 4px !important;
   max-width: 46%;
-}
-
-.location span {
-  width: 85% !important;
 }
 
 @media (max-width: 546px) {
@@ -65,6 +62,10 @@ header {
     max-width: 1180px;
     margin-left: 1%;
   }
+  .location span {
+    width: 85% !important;
+  }
+
 }
 
 @media (min-width: 768px) {

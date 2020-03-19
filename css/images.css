@@ -28,6 +28,9 @@
 
 } */
 
+.carousel img {
+  background-size: cover !important;
+}
 .carousel-control-prev-icon {
   background-image: url(../images/black-left-arrow.png);
 }
