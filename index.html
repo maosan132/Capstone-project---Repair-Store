@@ -79,11 +79,11 @@
       </div>
     </section>
 
-    <section class="ads border-bottom bg-clear">
+    <section class="ads border-bottom bg-clear d-none d-md-block">
       <div class="container py-5">
-        
+
         <div class="row">
-          <div class="arrow-prev col-1 d-flex align-items-center">
+          <div class="arrow-prev d-flex align-items-center">
             <a href="#"></a>
           </div>
           <div class="col-10">
@@ -130,14 +130,13 @@
         </div>
       </div>
     </div>
-    <section class="carousel pt-4 pb-5">
-      <div class="title "></div>
-      <div id="carousel" class="carousel slide" data-ride="carousel">
+    <section class="carousel pt-4 pb-5 container">
+      <div id="carousel" class="carousel slide" data-ride="carousel" class="row justify-content-between">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="wrapper justify-content-center ">
-              <div class="card-deck products-row">
-
+            <div class="wrapper">
+              <div class="card-deck products-row row">
+                <div class="col-12"></div>
                 <div class="card rounded-0">
                   <svg class="bd-placeholder-img card-img-top rounded-0 p-3" width="50%" height="130"
                     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
@@ -168,7 +167,7 @@
                       class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
                   </div>
                 </div>
-                <div class="card rounded-0">
+                <div class="card rounded-0 d-none d-sm-block">
                   <svg class="bd-placeholder-img card-img-top rounded-0 p-3" width="50%" height="130"
                     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
                     aria-label="Placeholder: Image cap">
@@ -183,7 +182,7 @@
                       class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
                   </div>
                 </div>
-                <div class="card rounded-0">
+                <div class="card rounded-0 d-none d-md-block">
                   <svg class="bd-placeholder-img card-img-top rounded-0 p-3" width="50%" height="130"
                     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
                     aria-label="Placeholder: Image cap">
@@ -198,7 +197,7 @@
                       class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
                   </div>
                 </div>
-                <div class="card rounded-0">
+                <div class="card rounded-0 d-none d-md-block">
                   <svg class="bd-placeholder-img card-img-top rounded-0 p-3" width="50%" height="130"
                     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
                     aria-label="Placeholder: Image cap">
@@ -218,14 +217,16 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="d-none d-md-block">
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
 
 
