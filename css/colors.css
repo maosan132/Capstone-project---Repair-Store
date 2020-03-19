@@ -41,3 +41,7 @@
 .bg-clear {
   background: #fefefe;
 }
+
+.text-very-light-gray {
+  color: darkgrey;
+}

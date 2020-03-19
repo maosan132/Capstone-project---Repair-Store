@@ -1,6 +1,5 @@
 body {
   background-color: rgba(0, 0, 0, .03);
-  max-width: ;
 }
 
 header {
@@ -26,6 +25,10 @@ header {
 .badge {
   left: -5px;
   top: -5px;
+}
+
+.form-control {
+  height: 50px;
 }
 
 .carousel-inner,
@@ -58,11 +61,13 @@ header {
 }
 
 @media (max-width: 767px) {
+
   .separator,
   .carousel {
     max-width: 1180px;
     margin-left: 1%;
   }
+
   .location span {
     width: 85% !important;
   }
