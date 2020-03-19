@@ -33,32 +33,42 @@ header {
   max-width: 1180px;
 }
 
-.carousel-inner {
-  width: 95%;
-}
-
-.carousel-control-prev {
-  width: 30px;
-}
-
-.carousel-control-next {
-  width: 30px;
-}
-
-.card {
-  margin-left: 7px !important;
-  margin-right: 7px !important;
-
+.plus:hover {
+  border-color: #d35266 !important;
+  color: #d35266 !important;;
 }
 
 
+@media (max-width: 767px) {
 
-@media (max-width: 768px) {}
+  .card {
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    max-width: 46%;
+  }
+  
+}
 
 @media (min-width: 768px) {
   .navbar {
 
     margin: 0 auto
+  }
+  .carousel-inner {
+    width: 95%;
+  }
+  
+  .carousel-control-prev {
+    width: 30px;
+  }
+  
+  .carousel-control-next {
+    width: 30px;
+  }
+  
+  .card {
+    margin-left: 7px !important;
+    margin-right: 7px !important;
   }
 }
 
