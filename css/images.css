@@ -35,3 +35,33 @@
 .carousel-control-next-icon {
   background-image: url(../images/black-right-arrow.png);
 }
+
+.arrow-next {
+
+}
+
+.arrow-prev a{
+  background: url(../images/left-arrow.png) 50%;
+  cursor: pointer;
+  width: 49px;
+  height: 49px;  
+  transition: background 0.5s ease
+}
+
+.arrow-next a{
+  background: url(../images/right-arrow.png) 50%;
+  cursor: pointer;
+  width: 49px;
+  height: 49px;  
+  transition: background 0.5s ease
+}
+
+.arrow-prev:hover a{
+  background: url(../images/left-arrow-hover.png) 50%;
+
+}
+
+.arrow-next:hover a{
+  background: url(../images/right-arrow-hover.png) 50%;
+
+}

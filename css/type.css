@@ -16,7 +16,8 @@ nav a {
 }
 
 a.active,
-.ad-info {
+.ad-info,
+.copyright a {
   color: #d35266;
 }
 
@@ -31,4 +32,8 @@ a.active,
 
 .detail {
   font-size: 12px;
+}
+
+.copyright p {
+  font-size: 13px;
 }

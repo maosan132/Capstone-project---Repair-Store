@@ -6,22 +6,12 @@ header {
   min-width: 546px;
 }
 
-.navbar {
- 
-}
-
-form {
-  
-}
-
 .arrows-ad::after {
   content: " ⟨   ⟩ ";
   font-weight: bolder;
   white-space: pre;
   color: #ca5668;
 }
-
-
 
 .products-row {
   max-width: 920px;
