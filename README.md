@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ecstatic-poincare-5ba05c.netlify .com)
+[Live Demo Link](https://mystifying-newton-71c7bd.netlify.com/)
 
 
 👤 **Author**
