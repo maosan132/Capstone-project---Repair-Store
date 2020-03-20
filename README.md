@@ -2,7 +2,7 @@
 
 > Project based on an online shop, as a reference, https://www.behance.net/gallery/24796463/ZATTIX design will be followed, but with personalised content. Project with real world specificactions, where the technical and soft skills gained during Microverse HTML and CSS program.
 
-![screenshot](./screenshot-capstone1)
+![screenshot](./screenshot-capstone1.png)
 
 ## Built With
 
