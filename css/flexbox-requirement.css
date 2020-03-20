@@ -1,0 +1,10 @@
+.flexbox-parent {
+  display: flex;
+}
+
+.flexbox-item.login,
+.flexbox-item.navigation {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}

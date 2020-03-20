@@ -6,6 +6,10 @@ header {
   min-width: 546px;
 }
 
+.topbar {
+  margin: 0 15px;
+}
+
 .login {
   cursor: pointer;
 }
@@ -97,9 +101,7 @@ header {
 }
 
 @media (min-width: 768px) {
-  .navbar {
-    margin: 0 auto
-  }
+
 
   .carousel-inner {
     width: 95%;
@@ -118,3 +120,4 @@ header {
     margin-right: 7px !important;
   }
 }
+

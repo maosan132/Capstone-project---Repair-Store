@@ -12,15 +12,16 @@
   <link rel="stylesheet" href="css/colors.css">
   <link rel="stylesheet" href="css/images.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/flexbox-requirement.css">
   <title>Repair Store - The place to heal your house</title>
 </head>
 
 <body class="bg-section">
   <header class="bg-dark py-2 ">
-    <div class="navbar">
-      <div class="container-fluid">
-        <div class="logo"> <img class="" src="images/logo.png" alt="main logo"></div>
-        <nav class="d-flex align-items-center mr-auto ">
+    <div class="topbar">
+      <div class="flexbox-parent">
+        <div class="flexbox-item logo"> <img class="" src="images/logo.png" alt="main logo"></div>
+        <nav class="flexbox-item navigation mr-auto">
           <a class="nav-item nav-link text-lightgray active ml-md-5 ml-1 p-1 p-md-2" href="#">
             <i class="fas fa-home pr-1 pr-md-3 d-inline"></i>HOME</a>
           <a class="nav-item nav-link text-lightgray ml-1 p-1 p-md-2" href="#">
@@ -28,11 +29,9 @@
           <a class="nav-item nav-link text-lightgray text-nowrap ml-1 p-1 p-md-2" href="#">
             <i class="fas fa-shopping-cart pr-1 pr-md-3 d-inline"></i>PURCHASE LIST</a>
           <button type="button"
-            class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block ml-md-3 text-nowrap text-white">GRAB
-            LAST
-            OFFERS</button>
+            class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block ml-md-3 text-nowrap text-white">GRAB LAST OFFERS</button>
         </nav>
-        <div class="mr-1 login d-flex align-items-center justify-content-end">
+        <div class="flexbox-item login mr-1">
           <span class="inbox"><i class="fas fa-inbox text-lightgray d-none d-md-block"><span
                 class="badge badge-danger position-relative p-0">19</span></i>
           </span>
