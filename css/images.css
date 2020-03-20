@@ -1,6 +1,6 @@
 .logo {
   background: url() no-repeat;
- max-width: 139px;
+  max-width: 139px;
 }
 
 .user-profile {
@@ -10,27 +10,18 @@
 }
 
 .img-ad {
-  background-size: cover!important;
+  background-size: cover !important;
 }
+
 .arrows-ad {
   bottom: 0;
   right: 0;
 }
-  /*
-.big-logo {
- background: url(../images/big-logo.png) no-repeat;
-  height: 85px, 
-}
- .bg-zattix .container{
-  background: url(../images/logo-cropped.png) no-repeat;
-  height: 200px;
-  background-size: contain;
-
-} */
 
 .carousel img {
   background-size: cover !important;
 }
+
 .carousel-control-prev-icon {
   background-image: url(../images/black-left-arrow.png);
   cursor: pointer;
@@ -41,39 +32,32 @@
   cursor: pointer;
 }
 
-.arrow-next {
-
-}
-
-.arrow-prev a{
+.arrow-prev a {
   background: url(../images/left-arrow.png) 50%;
   cursor: pointer;
   width: 49px;
-  height: 49px;  
+  height: 49px;
   transition: background 0.5s ease;
-  /* outline: 1px solid red;
-  display: block; */
 }
 
-.arrow-next a{
+.arrow-next a {
   background: url(../images/right-arrow.png) 50%;
   cursor: pointer;
   width: 49px;
-  height: 49px;  
+  height: 49px;
   transition: background 0.5s ease;
-  /* outline: 1px solid red;
-  display: block; */
 }
 
-.arrow-prev:hover a{
+.arrow-prev:hover a {
   background: url(../images/left-arrow-hover.png) 50%;
 
 }
 
-.arrow-next:hover a{
+.arrow-next:hover a {
   background: url(../images/right-arrow-hover.png) 50%;
 
 }
+
 .responsive {
   max-width: 100%;
   height: auto;
