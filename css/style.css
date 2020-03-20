@@ -1,7 +1,3 @@
-body {
-  background-color: rgba(0, 0, 0, .03);
-}
-
 header {
   min-width: 546px;
 }
@@ -23,7 +19,7 @@ header {
 
 .products-row {
   max-width: 1080px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .big-logo {
