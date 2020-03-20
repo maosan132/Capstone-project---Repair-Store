@@ -71,11 +71,11 @@ header {
   margin-left: 10px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #d35266 !important
 }
 
-.active .page-link{
+.active .page-link {
   background: #d35266 !important;
   border-color: #d35266 !important;
 }
@@ -120,4 +120,3 @@ header {
     margin-right: 7px !important;
   }
 }
-
