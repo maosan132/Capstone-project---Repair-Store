@@ -6,6 +6,10 @@ header {
   min-width: 546px;
 }
 
+.login {
+  cursor: pointer;
+}
+
 .arrows-ad::after {
   content: " ⟨   ⟩ ";
   font-weight: bolder;
