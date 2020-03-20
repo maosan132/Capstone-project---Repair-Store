@@ -72,7 +72,7 @@ header {
 }
 
 .nav-link:hover {
-  color: #d35266 !important
+  color: #d35266 !important;
 }
 
 .active .page-link {
@@ -87,7 +87,6 @@ header {
 }
 
 @media (max-width: 767px) {
-
   .separator,
   .carousel {
     max-width: 1180px;
@@ -97,12 +96,9 @@ header {
   .location span {
     width: 85% !important;
   }
-
 }
 
 @media (min-width: 768px) {
-
-
   .carousel-inner {
     width: 95%;
   }

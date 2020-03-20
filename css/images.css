@@ -50,12 +50,10 @@
 
 .arrow-prev:hover a {
   background: url(../images/left-arrow-hover.png) 50%;
-
 }
 
 .arrow-next:hover a {
   background: url(../images/right-arrow-hover.png) 50%;
-
 }
 
 .responsive {

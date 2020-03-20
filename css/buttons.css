@@ -8,7 +8,7 @@ nav .btn {
 }
 
 .search-button {
-  padding-top: 10px
+  padding-top: 10px;
 }
 
 .form-check label {
@@ -21,7 +21,6 @@ input[type="checkbox"] {
   padding: 25px !important;
   background: darkgrey;
   background-color: #eee;
-
 }
 
 input[type="checkbox"]:hover {
