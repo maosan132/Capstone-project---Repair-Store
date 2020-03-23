@@ -16,3 +16,27 @@
 .geo .flexbox-item {
   justify-content: end;
 }
+
+.items-to-column {
+flex-direction: column;
+}
+
+.items-to-row {
+flex-direction: row;
+} 
+
+.content-justified-to-center {
+  justify-content: center;
+}
+
+.content-justified-inbetween {
+  justify-content: space-between;
+}
+.content-justified-to-end {
+  justify-content: flex-end;
+}
+
+.items-aligned-to-center {
+  align-items: center;
+}
+
