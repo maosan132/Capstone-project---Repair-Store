@@ -8,3 +8,11 @@
   justify-content: flex-end !important;
   align-items: center !important;
 }
+
+.flexbox-parent.geo {
+  justify-content: space-around;
+}
+
+.geo .flexbox-item {
+  justify-content: end;
+}

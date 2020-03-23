@@ -7,6 +7,15 @@ body {
   font-size: 14px;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #383838;
+}
+
 .big-logo {
   font-family: 'Maven Pro', sans-serif;
 }
