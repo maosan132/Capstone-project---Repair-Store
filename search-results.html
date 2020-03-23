@@ -13,15 +13,16 @@
   <link rel="stylesheet" href="css/colors.css">
   <link rel="stylesheet" href="css/images.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/flexbox-requirement.css">
   <title>Repair Store - Search results page</title>
 </head>
 
 <body>
-  <header class="bg-dark py-2 ">
-    <div class="navbar p-0">
-      <div class="container-fluid">
+  <header class="bg-dark py-2">
+    <div class="topbar">
+      <div class="flexbox-parent">
         <div class="flexbox-item logo"> <a href="index.html"><img class="" src="images/logo.png" alt="main logo"></a></div>
-        <nav class="d-flex items-aligned-to-center mr-auto ">
+        <nav class="flexbox-item navigation mr-auto">
           <a class="nav-item nav-link text-lightgray active ml-md-5 ml-1 p-1 p-md-2" href="#">
             <i class="fas fa-home pr-1 pr-md-3 d-inline"></i>HOME</a>
           <a class="nav-item nav-link text-lightgray ml-1 p-1 p-md-2" href="#">
@@ -29,15 +30,13 @@
           <a class="nav-item nav-link text-lightgray text-nowrap ml-1 p-1 p-md-2" href="#">
             <i class="fas fa-shopping-cart pr-1 pr-md-3 d-inline"></i>PURCHASE LIST</a>
           <button type="button"
-            class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block ml-md-3 text-nowrap text-white">GRAB
-            LAST
-            OFFERS</button>
+            class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block ml-md-3 text-nowrap text-white">GRAB LAST OFFERS</button>
         </nav>
-        <div class="mr-1 login d-flex items-aligned-to-center content-justified-to-end">
+        <div class="flexbox-item login mr-1">
           <span class="inbox"><i class="fas fa-inbox text-lightgray d-none d-md-block"><span
                 class="badge badge-danger position-relative p-0">19</span></i>
           </span>
-          <span class="user-name text-lightgray px-2 d-none d-md-block">Jhon Doe</span>
+          <span class=" user-name text-lightgray px-2 d-none d-md-block">Jhon Doe</span>
           <div class="rounded-circle user-profile d-inline-block">
             <a><img class="img-fluid rounded-circle" src="images/face_mao.svg" alt='some content' /></a>
           </div>
@@ -49,32 +48,31 @@
   <main>
     <section class="bg-pink pb-3 mb-0 pt-4">
       <div class="container">
-        <h1 class="big-logo font-weight-bolder text-white pb-2 pl-4 pl-md-0"><a href="index.html">REPAIR<br>STORE</a></h1>
-        <p class="lead text-white pl-4 pl-md-0">Finding the right solution to each of your house repairments needs
+        <h1 class="big-logo font-weight-bolder text-white pb-2"><a href="index.html">REPAIR<br>STORE</a></h1>
+        <p class="lead text-white">Finding the right solution to each of your house repairments needs
           couldn´t be simpler than this!</p>
 
-        <form  class="row pt-1 text-nowrap">
-          <div class="form-group pr-1">
-            <label hidden>label</label>
-            <select class="form-control rounded-0">
-              <option class="">Adhesives</option>
-              <option>Waterproofing</option>
-              <option>Coverings</option>
-              <option>Anchors</option>
-            </select>
-          </div>
-
-          <div class="form-group col-auto pl-0 pr-1 ">
-            <label hidden>search</label>
-            <input type="text" class="form-control rounded-0" placeholder="Roof">
-          </div>
-          <div class="form-group pl-0 pr-1 d-none d-md-block">
-            <label hidden>city</label>
-            <input type="text" class="form-control rounded-0" placeholder="Cali">
-          </div>
-          <button type="submit"
-            class="btn btn-dark rounded-0 mb-3 text-lightgray search-button">Search</button>
-        </form>
+          <form class="row flexbox-parent items-to-row content-justified-to-center pt-md-4">
+            <div class="form-group col-auto col-md-3 pr-1">
+              <label hidden>label</label>
+              <select class="form-control rounded-0" id="formControlSelect1">
+                <option class="">Adhesives</option>
+                <option>Waterproofing</option>
+                <option>Coverings</option>
+                <option>Anchors</option>
+              </select>
+            </div>
+            <div class="form-group col-auto col-md-4 pl-0 pr-1">
+              <label hidden>search</label>
+              <input type="text" class="form-control rounded-0"
+                placeholder="Roof">
+            </div>
+            <div class="form-group col-auto col-md-3 pl-0 pr-1 d-none d-md-block">
+              <label hidden>city</label>
+              <input type="text" class="form-control rounded-0"  placeholder="Cali">
+            </div>
+            <a href="#" class="col-auto col-md-2 btn btn-dark rounded-0 mb-3 text-lightgray search-button">Search</a>
+          </form>
       </div>
     </section>
 
@@ -122,7 +120,7 @@
 
             <div class="">
               <div class="form-check pt-2">
-                <input class="form-check-input " type="checkbox" value="">
+                <input class="form-check-input" type="checkbox" value="">
                 <label class="form-check-label">
                   Entire Place
                 </label>
@@ -182,7 +180,7 @@
             </div>
             <div class="row py-2 mr-0">
               <div class="col-4">
-                <div class="d-flex position-relative">
+                <div class="position-relative">
                   <div class="arrows-ad position-absolute bg-darkgray p-2">
                   </div>
                   <img class="img-fluid img-ad d-md-none" src='images/billboardb2.jpg' alt='some content' />
@@ -197,7 +195,7 @@
                   expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
                   nobis eum omnis saepe iste laboriosam fuga.</p>
                 <div class="group row pr-3">
-                  <div class="col-12 col-sm-7 ">
+                  <div class="col-12 col-sm-7">
                     <p><b>Location:</b> dfasdfa sd faddd</p>
                     <p>18 March, 2020</p>
                   </div>
@@ -211,7 +209,7 @@
             </div>
             <div class="row py-2 bg-clear">
               <div class="col-4">
-                <div class="d-flex position-relative">
+                <div class="position-relative">
                   <div class="arrows-ad position-absolute bg-darkgray p-2">
                   </div>
                   <img class="img-fluid img-ad d-md-none" src='images/billboard2.jpg' alt='some content' />
@@ -243,7 +241,7 @@
             </div>
             <div class="row py-2 mr-0">
               <div class="col-4">
-                <div class="d-flex position-relative">
+                <div class="position-relative">
                   <div class="arrows-ad position-absolute bg-darkgray p-2">
                   </div>
                   <img class="img-fluid img-ad d-md-none" src='images/billboardb2.jpg' alt='some content' />
@@ -258,7 +256,7 @@
                   expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
                   nobis eum omnis saepe iste laboriosam fuga.</p>
                 <div class="group row pr-3">
-                  <div class="col-12 col-sm-7 ">
+                  <div class="col-12 col-sm-7">
                     <p><b>Location:</b> dfasdfa sd faddd</p>
                     <p>18 March, 2020</p>
                   </div>
@@ -272,7 +270,7 @@
             </div>
             <div class="row py-2">
               <div class="col-4">
-                <div class="d-flex position-relative">
+                <div class="position-relative">
                   <div class="arrows-ad position-absolute bg-darkgray p-2">
                   </div>
                   <img class="img-fluid img-ad d-md-none" src='images/billboard2.jpg' alt='some content' />
@@ -287,7 +285,7 @@
                   expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
                   nobis eum omnis saepe iste laboriosam fuga.</p>
                 <div class="group row pr-3">
-                  <div class="col-12 col-sm-7 ">
+                  <div class="col-12 col-sm-7">
                     <p><b>Location:</b> dfasdfa sd faddd</p>
                     <p>18 March, 2020</p>
                   </div>
@@ -301,7 +299,7 @@
             </div>
             <div class="row py-2 mr-0">
               <div class="col-4">
-                <div class="d-flex position-relative">
+                <div class="position-relative">
                   <div class="arrows-ad position-absolute bg-darkgray p-2">
                   </div>
                   <img class="img-fluid img-ad d-md-none" src='images/billboardb2.jpg' alt='some content' />
@@ -316,7 +314,7 @@
                   expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
                   nobis eum omnis saepe iste laboriosam fuga.</p>
                 <div class="group row pr-3">
-                  <div class="col-12 col-sm-7 ">
+                  <div class="col-12 col-sm-7">
                     <p><b>Location:</b> dfasdfa sd faddd</p>
                     <p>18 March, 2020</p>
                   </div>
@@ -389,7 +387,7 @@
             <h6 class="text-pink border-bottom border-danger invisible"><small>GEO</small></h6>
 
             <div>
-              <h6 class="text-pink d-inline pr-3 text-uppercase country "><small>Country</small></h6>
+              <h6 class="text-pink d-inline pr-3 text-uppercase country"><small>Country</small></h6>
               <span
                 class=" px-3 text-lightgray py-2 d-inline-block border w-50 text-center ml-auto"><small>Switzerland</small></span>
             </div>
@@ -425,3 +423,37 @@
 </body>
 
 </html>
+
+<!-- 
+    <section class="bg-pink pb-3 mb-0 pt-4">
+      <div class="container">
+        <h2 class="big-logo font-weight-bolder text-white pb-2">REPAIR<br>STORE</h2>
+        <p class="lead text-white d-none d-md-block">Finding the right solution to each of your house repairments needs
+          couldn´t be simpler than this!</p>
+        <p class="lead text-white d-block d-md-none">Finding the right solution to each of your <br>house repairments
+          needs
+          couldn´t be simpler than this!</p>
+        <form class="row d-flex flex-row justify-content-center pt-1">
+          <div class="form-group col-auto col-md-3 pr-1">
+            <label hidden>label</label>
+            <select class="form-control rounded-0">
+              <option class="">Adhesives</option>
+              <option>Waterproofing</option>
+              <option>Coverings</option>
+              <option>Anchors</option>
+            </select>
+          </div>
+
+          <div class="form-group col-auto col-md-4 pl-0 pr-1">
+            <label hidden>search</label>
+            <input type="text" class="form-control rounded-0" placeholder="Roof">
+          </div>
+          <div class="form-group col-auto col-md-3 pl-0 pr-1 d-none d-md-block">
+            <label hidden>city</label>
+            <input type="text" class="form-control rounded-0" placeholder="Cali">
+          </div>
+          <button type="submit"
+            class="col-auto col-md-2 btn btn-dark rounded-0 mb-3 text-lightgray search-button">Search</button>
+        </form>
+      </div>
+    </section>-->
