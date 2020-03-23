@@ -49,6 +49,12 @@ header {
   max-width: 1180px;
 }
 
+.plus {
+  width: 30px;
+  height: 30px;
+  line-height: 1;
+}
+
 .plus:hover {
   border-color: #d35266 !important;
   background: #383838;
@@ -61,6 +67,7 @@ header {
   margin-right: 4px !important;
   max-width: 46%;
 }
+
 
 .country {
   letter-spacing: 1px;
