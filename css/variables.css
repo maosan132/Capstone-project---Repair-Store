@@ -1,3 +1,8 @@
 :root {
-    --main-bg-color: brown;
+    --pink: brown;
+    --lightgray: #888;
+    --darkgray: #383838;
+    --bg-section: #f6f6f6;
+    --bg-clear: hsl(0, 0%, 100%);
+    --verylightgray:  darkgrey;
   }
