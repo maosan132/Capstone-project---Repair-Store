@@ -2,7 +2,8 @@
   display: flex;
 }
 
-.flexbox-item.login, .flexbox-item.navigation {
+.flexbox-item.login,
+.flexbox-item.navigation {
   display: flex !important;
   justify-content: flex-end !important;
   align-items: center !important;
@@ -80,8 +81,10 @@ form button {
   form select {
     margin: 0 0 3px 0;
   }
+
   form {
     flex-direction: column;
     align-items: stretch;
   }
 }
+  

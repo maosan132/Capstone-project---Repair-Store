@@ -36,7 +36,8 @@ html {
   margin: 0 auto;
 }
 
-.separator, .carousel {
+.separator,
+.carousel {
   max-width: 1180px;
 }
 
