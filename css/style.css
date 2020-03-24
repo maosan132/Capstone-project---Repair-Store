@@ -50,9 +50,9 @@ header {
 }
 
 .plus:hover {
-  border-color: #d35266 !important;
-  background: #383838;
-  color: #d35266 !important;
+  border-color: var(--pink) !important;
+  background: var(--darkgray);
+  color: var(--pink) !important;
   cursor: pointer;
 }
 
@@ -67,7 +67,7 @@ header {
 }
 
 .page-link {
-  color: #888;
+  color: var(--lightgray);
   border-radius: 5px;
 }
 
@@ -76,21 +76,16 @@ header {
 }
 
 .nav-link:hover {
-  color: #d35266 !important;
+  color: var(--pink);
 }
 
 .active .page-link {
-  background: #d35266 !important;
-  border-color: #d35266 !important;
+  background: var(--pink) !important;
 }
 
 @media (max-width: 546px) {
   .login {
     visibility: hidden;
-  }
-
-  .resize, .detail {
-    font-size: 2.7vmin;
   }
 }
 

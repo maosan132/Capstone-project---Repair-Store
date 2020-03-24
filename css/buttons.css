@@ -4,7 +4,7 @@ nav .btn {
 
 .btn-pink:hover,
 .btn.bg-zattix:hover {
-  background-color: #888;
+  background-color: var(--lightgray);
 }
 
 .search-button {

@@ -1,47 +1,47 @@
 .bg-zattix {
-  background: #d35266;
+  background: var(--pink);
 }
 
 .text-zattix {
-  color: #d35266;
+  color: var(--pink);
 }
 
 .bg-pink {
-  background: #d35266 url(../images/logo-cropped.svg) no-repeat 5% center/contain;
+  background: var(--pink) url(../images/logo-cropped.svg) no-repeat 5% center/contain;
 }
 
 .text-pink {
-  color: #d35266;
+  color: var(--pink);
 }
 
 .bg-lightgray { 
-  background: #888;
+  background: var(--lightgray);
 }
 
 .text-lightgray {
-  color: #888;
+  color: var(--lightgray);
 }
 
 .bg-darkgray {
-  background: #383838;
+  background: var(--darkgray);
 }
 
 .text-darkgray {
-  color: #383838;
+  color: var(--darkgray);
 }
 
 .btn-pink {
-  background: #d35266;
+  background: var(--pink);
 }
 
 .bg-section {
-  background: #f6f6f6;
+  background: var(--bg-section);
 }
 
 .bg-clear {
-  background: #fefefe;
+  background: var(--bg-clear);
 }
 
 .text-very-light-gray {
-  color: darkgrey;
+  color: var(--verylightgray);
 }
