@@ -35,14 +35,11 @@ header {
   top: -5px;
 }
 
-
-.carousel-inner,
-.carousel.wrapper {
+.carousel-inner, .carousel.wrapper {
   margin: 0 auto;
 }
 
-.separator,
-.carousel {
+.separator, .carousel {
   max-width: 1180px;
 }
 
@@ -90,12 +87,15 @@ header {
 @media (max-width: 546px) {
   .login {
     visibility: hidden;
-  }  
+  }
+
+  .resize, .detail {
+    font-size: 2.7vmin;
+  }
 }
 
 @media (max-width: 767px) {
-  .separator,
-  .carousel {
+  .separator, .carousel {
     max-width: 1180px;
     margin-left: 1%;
   }

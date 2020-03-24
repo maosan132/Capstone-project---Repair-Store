@@ -52,12 +52,11 @@ a.active,
 }
 
 @media (max-width: 546px) {
-
-}
-
-@media (max-width: 767px) {
-
-
-@media (min-width: 768px) {
-
+  .resize,
+  .detail {
+    font-size: 2.9vmin;
+  }
+  .title-cat {
+    font-size: 4vmin;
+  }
 }
