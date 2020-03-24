@@ -2,10 +2,6 @@ html {
   overflow-x: hidden;
 }
 
-header {
-  min-width: 546px;
-}
-
 .topbar {
   margin: 0 15px;
 }
@@ -18,7 +14,7 @@ header {
   content: " ⟨   ⟩ ";
   font-weight: bolder;
   white-space: pre;
-  color: #ca5668;
+  color: var(--pink);
 }
 
 .products-row {
@@ -90,7 +86,8 @@ header {
 }
 
 @media (max-width: 767px) {
-  .separator, .carousel {
+  .separator,
+  .carousel {
     max-width: 1180px;
     margin-left: 1%;
   }

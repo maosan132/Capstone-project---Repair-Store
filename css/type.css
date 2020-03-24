@@ -48,12 +48,12 @@ a.active:hover{
 }
 
 .copyright p {
-  font-size: 2.5vmin ;
+  font-size: 2.5vmin;
 }
 
 @media (max-width: 546px) {
   nav a {
-    font-size: 2.8vmin ;
+    font-size: 2.8vmin;
   }
   .resize,
   .detail {
