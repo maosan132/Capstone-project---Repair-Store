@@ -88,7 +88,9 @@ header {
 }
 
 @media (max-width: 546px) {
-
+  .login {
+    visibility: hidden;
+  }  
 }
 
 @media (max-width: 767px) {
