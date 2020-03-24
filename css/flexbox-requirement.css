@@ -41,10 +41,6 @@ flex-direction: row;
   align-items: center;
 }
 
-.items-aligned-to-end {
-  align-items: flex-end;
-}
-
 .items-aligned-stretch {
   align-items: stretch;
 }

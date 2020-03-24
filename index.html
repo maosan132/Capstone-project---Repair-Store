@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/type.css">
   <link rel="stylesheet" href="css/buttons.css">
   <link rel="stylesheet" href="css/colors.css">
   <link rel="stylesheet" href="css/images.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/type.css">
   <link rel="stylesheet" href="css/flexbox-requirement.css">
   <title>Repair Store - The place to heal your house</title>
 </head>
@@ -24,11 +24,11 @@
         <div class="flexbox-item logo"> <a href="index.html"><img class="" src="images/logo.png" alt="main logo"></a>
         </div>
         <nav class="flexbox-item navigation mr-auto">
-          <a class="nav-item nav-link text-lightgray active ml-md-5 ml-1 p-1 p-md-2" href="#">
+          <a class="nav-link text-lightgray active ml-md-5 ml-1 p-1 p-md-2" href="#">
             <i class="fas fa-home pr-1 pr-md-3 d-inline"></i>HOME</a>
-          <a class="nav-item nav-link text-lightgray ml-1 p-1 p-md-2" href="#">
+          <a class="nav-link text-lightgray ml-1 p-1 p-md-2" href="#">
             <i class="fas fa-paint-roller pr-1 pr-md-3 d-inline"></i>PRODUCTS</a>
-          <a class="nav-item nav-link text-lightgray text-nowrap ml-1 p-1 p-md-2" href="#">
+          <a class="nav-link text-lightgray text-nowrap ml-1 p-1 p-md-2" href="#">
             <i class="fas fa-shopping-cart pr-1 pr-md-3 d-inline"></i>PURCHASE LIST</a>
           <button type="button"
             class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block ml-md-3 text-nowrap text-white">GRAB
@@ -53,8 +53,31 @@
         <h1 class="big-logo display-4 font-weight-bolder text-white pb-2">REPAIR<br>STORE</h1>
         <p class="lead text-white">Finding the right solution to each of your house repairments needs
           couldn´t be simpler than this!</p>
-        <form class="row flexbox-parent items-to-row content-justified-to-center pt-md-4">
-          <div class="form-group col-auto col-md-3 pr-1">
+        <form class="r-ow form-inline f lexbox-parent i tems-to-row c ontent-justified-to-center pt-md-4">
+          <label hidden>label</label>
+          <select class="form-control rounded-0" id="formControlSelect1">
+            <option class="">Select option</option>
+            <option class="">Adhesives</option>
+            <option>Waterproofing</option>
+            <option>Coverings</option>
+            <option>Anchors</option>
+          </select>
+          <label hidden>search</label>
+          <input type="text" class="form-control rounded-0" placeholder="What are you looking for?">
+          <label hidden>city</label>
+          <input type="text" class="form-control rounded-0 d-none d-md-block " placeholder="City">
+          <a href="search-results.html"
+            class="col- auto col-md- 2 btn btn-dark rounded-0  text-lightgray search-button">Search</a>
+        </form>
+      </div>
+    </section>
+    <!-- <section class="jumbotron jumbotron-fluid text-center bg-pink pb-4 mb-0">
+      <div class="container">
+        <h1 class="big-logo display-4 font-weight-bolder text-white pb-2">REPAIR<br>STORE</h1>
+        <p class="lead text-white">Finding the right solution to each of your house repairments needs
+          couldn´t be simpler than this!</p>
+        <form class="r-ow flexbox-parent items-to-row content-justified-to-center pt-md-4">
+          <div class="form-group col- auto col-md- 3 pr-1 category">
             <label hidden>label</label>
             <select class="form-control rounded-0" id="formControlSelect1">
               <option class="">Select option</option>
@@ -64,19 +87,20 @@
               <option>Anchors</option>
             </select>
           </div>
-          <div class="form-group col-auto col-md-4 pl-0 pr-1">
+          <div class="form-group col- auto col-md- 4 pl-0 pr-1 term">
             <label hidden>search</label>
             <input type="text" class="form-control rounded-0" placeholder="What are you looking for?">
           </div>
-          <div class="form-group col-auto col-md-3 pl-0 pr-1 d-none d-md-block">
+          <div class="form-group col- auto col-md- 3 pl-0 pr-1 d-none d-md-block city">
             <label hidden>city</label>
             <input type="text" class="form-control rounded-0" placeholder="City">
           </div>
           <a href="search-results.html"
-            class="col-auto col-md-2 btn btn-dark rounded-0 mb-3 text-lightgray search-button">Search</a>
+            class="col- auto col-md- 2 btn btn-dark rounded-0 mb-3 text-lightgray search-button">Search</a>
         </form>
       </div>
-    </section>
+    </section> -->
+
 
     <section class="ads border-bottom bg-clear d-none d-md-block">
       <div class="container pt-4 pb-5">
@@ -593,7 +617,7 @@
               <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
             </nav>
           </div>
-          <div class="col-4 location col-sm-3 items-aligned-to-end">
+          <div class="col-4 location col-sm-3 pl-0 pl-sm-2 pl-md-3 pl-xl-5 items-aligned-to-end">
             <h6 class="text-pink border-bottom border-danger invisible"><small>GEO</small></h6>
             <div class="flexbox-parent">
               <h6 class="flexbox-item text-pink d-inline pr-3 text-uppercase country"><small>Country</small></h6>
@@ -607,7 +631,8 @@
             </div>
             <div class="pt-1 flexbox-parent">
               <h6 class="text-pink d-inline pr-3 text-uppercase"><small>Currency</small></h6>
-              <span class="flexbox-item px-3 text-lightgray py-2 d-inline-block border w-50 text-center"><small class="text-nowrap">
+              <span class="flexbox-item px-3 text-lightgray py-2 d-inline-block border w-50 text-center"><small
+                  class="text-nowrap">
                   Dollars</small></span>
             </div>
           </div>
@@ -619,13 +644,8 @@
 
   <footer class="copyright border-top bg-clear">
     <div class="container-xl py-2">
-      <div class="row">
-        <div class="col text-center">
-
-          <p class="pt-2 text-justify">Copyright © 2008 Zattix Inc. All rights reserved. Designed by <a
-              href="https://www.behance.net/gallery/24796463/ZATTIX">Mohammed Awad</a></p>
-        </div>
-      </div>
+      <p class="pt-2 sdfsdf">Copyright © 2008 Zattix Inc. All rights reserved. Designed by <a
+          href="https://www.behance.net/gallery/24796463/ZATTIX">Mohammed Awad</a></p>
     </div>
   </footer>
 
