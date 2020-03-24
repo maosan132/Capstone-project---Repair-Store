@@ -3,6 +3,10 @@
   max-width: 139px;
 }
 
+.logo img {
+  max-width: 25vmin;
+}
+
 .user-profile {
   background: url(../images/face_mao.svg);
   width: 40px;

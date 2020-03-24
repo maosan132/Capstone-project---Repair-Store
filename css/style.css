@@ -121,20 +121,3 @@ header {
     margin-right: 7px !important;
   }
 }
-
-.category {
-  max-width: 53.8em !important;
-  outline: 1px solid blue;
-}
-
-.term {
-  max-width: 33.3% !important;
-}
-
-.city {
-  max-width: 25% !important;
-}
-
-.search-button {
-  max-width: 17% !important;
-}
