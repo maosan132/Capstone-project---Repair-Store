@@ -31,7 +31,8 @@ html {
   top: -5px;
 }
 
-.carousel-inner, .carousel.wrapper {
+.carousel-inner,
+.carousel.wrapper {
   margin: 0 auto;
 }
 
