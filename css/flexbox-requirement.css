@@ -2,8 +2,7 @@
   display: flex;
 }
 
-.flexbox-item.login,
-.flexbox-item.navigation {
+.flexbox-item.login, .flexbox-item.navigation {
   display: flex !important;
   justify-content: flex-end !important;
   align-items: center !important;
@@ -18,12 +17,12 @@
 }
 
 .items-to-column {
-flex-direction: column;
+  flex-flow: column;
 }
 
 .items-to-row {
-flex-direction: row;
-} 
+  flex-flow: row;
+}
 
 .content-justified-to-center {
   justify-content: center;
@@ -41,6 +40,48 @@ flex-direction: row;
   align-items: center;
 }
 
+.items-aligned-to-end {
+  align-items: flex-end;
+}
+
 .items-aligned-stretch {
   align-items: stretch;
+}
+
+form * {
+  height: 50px;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+form input {
+  vertical-align: middle;
+  margin-right: 2px;
+  flex-grow: 1;
+}
+
+form select {
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+form button {
+  padding: 10px 20px;
+  flex-grow: 1;
+}
+
+@media (max-width: 767px) {
+  form input,
+  form select {
+    margin: 0 0 3px 0;
+  }
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
