@@ -79,6 +79,7 @@ html {
 
 .active .page-link {
   background: var(--pink) !important;
+  border-color: white !important;
 }
 
 @media (max-width: 546px) {
