@@ -2,6 +2,7 @@
 
 > Project for an online shop for home repairments. The design followed is a nice work of [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX), but with personalized content. In this work, I am going to demonstrate my skills gained during Microverse HTML and CSS first section of the main curriculum.
 
+
 ![screenshot](./screenshot-capstone1.png)
 
 ## Concept of the shop
