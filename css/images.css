@@ -1,0 +1,66 @@
+.logo {
+  background: url() no-repeat;
+  max-width: 139px;
+}
+
+.logo img {
+  max-width: 25vmin;
+}
+
+.user-profile {
+  background: url(../images/face_mao.svg);
+  width: 40px;
+  height: 40px;
+}
+
+.img-ad {
+  background-size: cover !important;
+}
+
+.arrows-ad {
+  bottom: 0;
+  right: 0;
+}
+
+.carousel img {
+  background-size: cover !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../images/black-left-arrow.png);
+  cursor: pointer;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/black-right-arrow.png);
+  cursor: pointer;
+}
+
+.arrow-prev a {
+  background: url(../images/left-arrow.png) 50%;
+  cursor: pointer;
+  width: 49px;
+  height: 49px;
+  transition: background 0.5s ease;
+}
+
+.arrow-next a {
+  background: url(../images/right-arrow.png) 50%;
+  cursor: pointer;
+  width: 49px;
+  height: 49px;
+  transition: background 0.5s ease;
+}
+
+.arrow-prev:hover a {
+  background: url(../images/left-arrow-hover.png) 50%;
+}
+
+.arrow-next:hover a {
+  background: url(../images/right-arrow-hover.png) 50%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}

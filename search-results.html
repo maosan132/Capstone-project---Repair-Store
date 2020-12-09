@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/type.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="css/colors.css">
+  <link rel="stylesheet" href="css/images.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/flexbox-requirement.css">
+  <title>Repair Store - Search results page</title>
+</head>
+
+<body>
+  <header class="bg-dark py-2">
+    <div class="topbar">
+      <div class="flexbox-parent">
+        <div class="flexbox-item logo flexbox-parent items-aligned-to-center"> <a href="index.html"><img
+              class="img-fluid" src="images/logo.png" alt="main logo"></a>
+        </div>
+        <nav class="flexbox-item navigation">
+          <a class="nav-link active ml-md-5 ml-1 p-1 p-md-2" href="index.html">
+            <i class="fas fa-home pr-1 pr-md-3 d-inline"></i>HOME</a>
+          <a class="nav-link text-lightgray ml-1 p-1 p-md-2" href="#">
+            <i class="fas fa-paint-roller pr-1 pr-md-3 d-inline"></i>PRODUCTS</a>
+          <a class="nav-link text-lightgray text-nowrap ml-1 p-1 p-md-2" href="#">
+            <i class="fas fa-shopping-cart pr-1 pr-md-3 d-inline"></i>PURCHASE LIST</a>
+          <button type="button"
+            class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block ml-md-3 text-nowrap text-white">GRAB
+            LAST OFFERS</button>
+        </nav>
+        <div class="flexbox-item login ml-auto mr-3 content-justified-to-end">
+          <span class="inbox"><i class="fas fa-inbox text-lightgray d-none d-md-block"><span
+                class="badge badge-danger position-relative p-0">19</span></i>
+          </span>
+          <span class=" user-name text-lightgray px-2 d-none d-md-block">Jhon Doe</span>
+          <div class="rounded-circle user-profile d-inline-block">
+            <a><img class="img-fluid rounded-circle" src="images/face_mao.svg" alt='some content' /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-pink pb-3 mb-0 pt-4">
+      <div class="container">
+        <h1 class="big-logo font-weight-bolder text-white pb-2"><a href="index.html">REPAIR<br>STORE</a></h1>
+        <p class="lead text-white">Search around 1500 products waiting for fixing your house!</p>
+          <form class="form-inline pt-0">
+            <label hidden>label</label>
+            <select class="form-control rounded-0" id="formControlSelect1">
+              <option class="">Select option</option>
+              <option class="">Adhesives</option>
+              <option>Waterproofing</option>
+              <option>Coverings</option>
+              <option>Anchors</option>
+            </select>
+            <label hidden>search</label>
+            <input type="text" class="form-control rounded-0" placeholder="What are you looking for?">
+            <label hidden>city</label>
+            <input type="text" class="form-control rounded-0 d-none d-md-block " placeholder="City">
+  
+            <button class="btn btn-dark rounded-0 text-lightgray p-0"><a
+                href="search-results.html">Search</a></button>
+          </form>
+  
+      </div>
+    </section>
+
+    <section class="ads border-bottom bg-section">
+      <div class="container-xl py-4">
+
+        <div class="row">
+          <div class="col-3 col-sm-2 pt-1 d-none d-sm-block">
+            <div class="">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="option1">
+                <label class="form-check-label">Rent</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="option2">
+                <label class="form-check-label">Ownership</label>
+              </div>
+            </div>
+            <div class="title border-bottom">
+              <h6 class="text-darkgray pt-3">type</h6>
+            </div>
+            <div class="">
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  Entire Place
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  Private Room
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  Shared Room
+                </label>
+              </div>
+            </div>
+            <div class="title border-bottom">
+              <h6 class="text-darkgray pt-3">Size</h6>
+            </div>
+
+            <div class="">
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  Entire Place
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  Private Room
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  Custom</label>
+              </div>
+            </div>
+            <div class="title border-bottom">
+              <h6 class="text-darkgray pt-3">Price Range</h6>
+            </div>
+            <div class="">
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  $10 - $100
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  $100 - $500
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  $500 - $1000
+                </label>
+              </div>
+              <div class="form-check pt-2">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">
+                  +$1000
+                </label>
+              </div>
+            </div>
+            <form>
+
+            </form>
+          </div>
+          <div class="col-12 col-sm-10 border-left">
+            <div class="separator border-bottom pb-3 my-2 ml-n3">
+              <div class="title">
+                <p class="col d-inline pr-0 text-nowrap resize"><b>15</b> Results for <b>"Roof"</b> Search at <b>Cali</b> in
+                  Category
+                  <b>Adhesives</b></p>
+              </div>
+            </div>
+            <article class="row py-2 mr-0">
+              <div class="col-4">
+                <div class="position-relative">
+                  <div class="arrows-ad position-absolute bg-darkgray p-2">
+                  </div>
+                  <img class="img-fluid img-ad d-md-none" src='images/billboardb2.jpg' alt='some content' />
+                  <img class="img-fluid img-ad d-none d-md-block" src='images/billboardb.jpg' alt='some content' />
+                </div>
+              </div>
+              <div class="col-8">
+                <h6 class="col d-inline pr-0 pl-0">
+                  Soldadura Paternit</h6>
+                <p class="text-zattix pt-1"><b>1500 gr</b></p>
+                <p class="text-very-light-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem
+                  expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
+                  nobis eum omnis saepe iste laboriosam fuga.</p>
+                <div class="group row pr-3">
+                  <div class="col-12 col-sm-7">
+                    <p><b>Location:</b> dfasdfa sd faddd</p>
+                    <p>18 March, 2020</p>
+                  </div>
+                  <div class="col-12 col-sm-5 pt-3">
+                    <button type="button" class="btn btn-pink text-light px-4 float-right">$450</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div class="separator border-bottom border-top bg-light pb-2 my-2 ml-n3">
+            </div>
+            <article class="row py-2 bg-clear">
+              <div class="col-4">
+                <div class="position-relative">
+                  <div class="arrows-ad position-absolute bg-darkgray p-2">
+                  </div>
+                  <img class="img-fluid img-ad d-md-none" src='images/billboard2.jpg' alt='some content' />
+                  <img class="img-fluid img-ad d-none d-md-block" src='images/billboard.jpg' alt='some content' />
+                </div>
+              </div>
+              <div class="col-8">
+                <h6 class="col d-inline pr-0 pl-0">
+                  Soldadura Paternit</h6>
+                <p class="text-zattix pt-1"><b>1500 gr</b></p>
+                <p class="text-very-light-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem
+                  expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
+                  nobis eum omnis saepe iste laboriosam fuga.</p>
+                <div class="group row">
+                  <div class="col-12 col-sm-6">
+                    <p><b>Location:</b> dfasdfa sd faddd</p>
+                    <p>18 March, 2020</p>
+                  </div>
+                  <div class="col-12 col-sm-6 pt-3">
+                    <button type="button" class="btn btn-pink text-light px-4 mt-2 float-right mr-2">$450</button>
+                    <button type="button" class="btn btn-pink text-light px-4 text-nowrap mt-2 float-right mr-2">Give a
+                      call</button>
+
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div class="separator border-bottom border-top bg-light pb-2 my-2 ml-n3">
+            </div>
+            <article class="row py-2 mr-0">
+              <div class="col-4">
+                <div class="position-relative">
+                  <div class="arrows-ad position-absolute bg-darkgray p-2">
+                  </div>
+                  <img class="img-fluid img-ad d-md-none" src='images/billboardb2.jpg' alt='some content' />
+                  <img class="img-fluid img-ad d-none d-md-block" src='images/billboardb.jpg' alt='some content' />
+                </div>
+              </div>
+              <div class="col-8">
+                <h6 class="col d-inline pr-0 pl-0">
+                  Soldadura Paternit</h6>
+                <p class="text-zattix pt-1"><b>1500 gr</b></p>
+                <p class="text-very-light-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem
+                  expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
+                  nobis eum omnis saepe iste laboriosam fuga.</p>
+                <div class="group row pr-3">
+                  <div class="col-12 col-sm-7">
+                    <p><b>Location:</b> dfasdfa sd faddd</p>
+                    <p>18 March, 2020</p>
+                  </div>
+                  <div class="col-12 col-sm-5 pt-3">
+                    <button type="button" class="btn btn-pink text-light px-4 float-right">$450</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div class="separator border-bottom border-top bg-light pb-2 my-2 ml-n3">
+            </div>
+            <article class="row py-2">
+              <div class="col-4">
+                <div class="position-relative">
+                  <div class="arrows-ad position-absolute bg-darkgray p-2">
+                  </div>
+                  <img class="img-fluid img-ad d-md-none" src='images/billboard2.jpg' alt='some content' />
+                  <img class="img-fluid img-ad d-none d-md-block" src='images/billboard.jpg' alt='some content' />
+                </div>
+              </div>
+              <div class="col-8">
+                <h6 class="col d-inline pr-0 pl-0">
+                  Soldadura Paternit</h6>
+                <p class="text-zattix pt-1"><b>1500 gr</b></p>
+                <p class="text-very-light-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem
+                  expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
+                  nobis eum omnis saepe iste laboriosam fuga.</p>
+                <div class="group row pr-3">
+                  <div class="col-12 col-sm-7">
+                    <p><b>Location:</b> dfasdfa sd faddd</p>
+                    <p>18 March, 2020</p>
+                  </div>
+                  <div class="col-12 col-sm-5 pt-3">
+                    <button type="button" class="btn btn-pink text-light px-4 float-right">$450</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div class="separator border-bottom border-top bg-light pb-2 my-2 ml-n3">
+            </div>
+            <article class="row py-2 mr-0">
+              <div class="col-4">
+                <div class="position-relative">
+                  <div class="arrows-ad position-absolute bg-darkgray p-2">
+                  </div>
+                  <img class="img-fluid img-ad d-md-none" src='images/billboardb2.jpg' alt='some content' />
+                  <img class="img-fluid img-ad d-none d-md-block" src='images/billboardb.jpg' alt='some content' />
+                </div>
+              </div>
+              <div class="col-8">
+                <h6 class="col d-inline pr-0 pl-0">
+                  Soldadura Paternit</h6>
+                <p class="text-zattix pt-1"><b>1500 gr</b></p>
+                <p class="text-very-light-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rem
+                  expedita doloremque nemo commodi voluptatem? Obcaecati, dolores eius eos sapiente id ex veritatis
+                  nobis eum omnis saepe iste laboriosam fuga.</p>
+                <div class="group row pr-3">
+                  <div class="col-12 col-sm-7">
+                    <p><b>Location:</b> dfasdfa sd faddd</p>
+                    <p>18 March, 2020</p>
+                  </div>
+                  <div class="col-12 col-sm-5 pt-3">
+                    <button type="button" class="btn btn-pink text-light px-4 float-right">$450</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div class="separator border-top bg-light pb-2 my-2 ml-n3">
+            </div>
+            <nav aria-label="...">
+              <ul class="pagination pagination-sm content-justified-to-center">
+                <li class="page-item"><a class="page-link" href="#">1</a>
+
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item pt-3"><b>...</b></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="about  border-top bg-clear">
+      <div class="container-xl py-4">
+        <div class="row flexbox-parent">
+          <div class="col-12 col-sm-3 text-center">
+            <img class="img-fluid" src="images/footer-logo.png" alt="">
+            <p class="pt-3 text-justify"><small>ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis
+                iusto animi ad soluta obcaecati ducimus at. Cupiditate, soluta repellat. Doloribus, quas! Nulla sequi,
+                perferendis nesciunt tenetur placeat deserunt vitae!</small> </p>
+          </div>
+          <div class="col-4 col-sm-2 offset-sm-1">
+            <h6 class="text-pink border-bottom border-danger"><small>CATEGORIES</small></h6>
+            <div class="flexbox-parent">
+              <div class="col-6">
+                <nav class="nav items-to-column nav-bottom">
+                  <a class="nav-link pl-0 text-lightgray" href="#">Active</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                </nav>
+              </div>
+              <div class="col-6">
+                <nav class="nav items-to-column nav-bottom">
+                  <a class="nav-link pl-0 text-lightgray" href="#">Active</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-2  offset-md-1">
+            <h6 class="text-pink border-bottom border-danger"><small>NAVIGATION</small></h6>
+            <nav class="nav items-to-column nav-bottom">
+              <a class="nav-link pl-0 text-lightgray" href="#">Active</a>
+              <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+              <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+              <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+            </nav>
+          </div>
+          <div class="col-4 location col-sm-3 pl-0 pl-sm-2 pl-md-3 pl-xl-5 items-aligned-to-end">
+            <h6 class="text-pink border-bottom border-danger invisible"><small>GEO</small></h6>
+            <div class="flexbox-parent">
+              <h6 class="flexbox-item text-pink d-inline pr-3 text-uppercase country"><small>Country</small></h6>
+              <span
+                class="flexbox-item px-3 text-lightgray py-2 d-inline-block border w-50 text-center"><small>Holland</small></span>
+            </div>
+            <div class="pt-1 flexbox-parent">
+              <h6 class="text-pink d-inline pr-3 text-uppercase"><small>Language</small></h6>
+              <span
+                class="flexbox-item px-3 text-lightgray py-2 d-inline-block border w-50 text-center"><small>English</small></span>
+            </div>
+            <div class="pt-1 flexbox-parent">
+              <h6 class="text-pink d-inline pr-3 text-uppercase"><small>Currency</small></h6>
+              <span class="flexbox-item px-3 text-lightgray py-2 d-inline-block border w-50 text-center"><small
+                  class="text-nowrap">
+                  Dollars</small></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  </main>
+  <footer class="copyright border-top bg-clear">
+    <div class="container-xl py-2">
+      <div class="row">
+        <div class="col text-center">
+
+          <p class="pt-2 text-justify">© 2008 Zattix Inc. All rights reserved. Designed by <a
+              href="https://www.behance.net/gallery/24796463/ZATTIX">Mohammed Awad</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

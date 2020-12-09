@@ -1,0 +1,47 @@
+.bg-zattix {
+  background: var(--pink);
+}
+
+.text-zattix {
+  color: var(--pink);
+}
+
+.bg-pink {
+  background: var(--pink) url(../images/logo-cropped.svg) no-repeat 5% center/contain;
+}
+
+.text-pink {
+  color: var(--pink);
+}
+
+.bg-lightgray {
+  background: var(--lightgray);
+}
+
+.text-lightgray {
+  color: var(--lightgray);
+}
+
+.bg-darkgray {
+  background: var(--darkgray);
+}
+
+.text-darkgray {
+  color: var(--darkgray);
+}
+
+.btn-pink {
+  background: var(--pink);
+}
+
+.bg-section {
+  background: var(--bg-section);
+}
+
+.bg-clear {
+  background: var(--bg-clear);
+}
+
+.text-very-light-gray {
+  color: var(--verylightgray);
+}

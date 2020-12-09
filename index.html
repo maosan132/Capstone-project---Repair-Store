@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="css/colors.css">
+  <link rel="stylesheet" href="css/images.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/type.css">
+  <link rel="stylesheet" href="css/flexbox-requirement.css">
+  <title>Repair Store - The place to heal your house</title>
+</head>
+
+<body class="bg-section">
+  <header class="bg-dark py-2">
+    <div class="topbar">
+      <div class="flexbox-parent">
+        <div class="flexbox-item logo flexbox-parent items-aligned-to-center"> <a href="index.html"><img
+              class="img-fluid" src="images/logo.png" alt="main logo"></a>
+        </div>
+        <nav class="flexbox-item navigation">
+          <a class="nav-link active ml-md-5 ml-1 p-1 p-md-2" href="#">
+            <i class="fas fa-home pr-1 pr-md-3 d-inline"></i>HOME</a>
+          <a class="nav-link text-lightgray ml-1 p-1 p-md-2" href="#">
+            <i class="fas fa-paint-roller pr-1 pr-md-3 d-inline"></i>PRODUCTS</a>
+          <a class="nav-link text-lightgray text-nowrap ml-1 p-1 p-md-2" href="#">
+            <i class="fas fa-shopping-cart pr-1 pr-md-3 d-inline"></i>PURCHASE LIST</a>
+          <button type="button"
+            class="btn bg-zattix rounded-0 btn-sm ml-2 pr-2 my-2 d-none d-lg-block ml-md-3 text-nowrap text-white">GRAB
+            LAST OFFERS</button>
+        </nav>
+        <div class="flexbox-item login ml-auto mr-3 content-justified-to-end">
+          <span class="inbox"><i class="fas fa-inbox text-lightgray d-none d-md-block"><span
+                class="badge badge-danger position-relative p-0">19</span></i>
+          </span>
+          <span class=" user-name text-lightgray px-2 d-none d-md-block">Jhon Doe</span>
+          <div class="rounded-circle user-profile d-inline-block">
+            <a><img class="img-fluid rounded-circle" src="images/face_mao.svg" alt='some content' /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="jumbotron jumbotron-fluid text-center bg-pink pb-4 mb-0">
+      <div class="container">
+        <h1 class="big-logo display-4 font-weight-bolder text-white pb-2">REPAIR<br>STORE</h1>
+        <p class="lead text-white">Finding the right solution to each of your house repairments needs
+          couldn´t be simpler than this!</p>
+        <form class="r-ow form-inline f lexbox-parent i tems-to-row c ontent-justified-to-center pt-md-4">
+          <label hidden>label</label>
+          <select class="form-control rounded-0" id="formControlSelect1">
+            <option class="">Select option</option>
+            <option class="">Adhesives</option>
+            <option>Waterproofing</option>
+            <option>Coverings</option>
+            <option>Anchors</option>
+          </select>
+          <label hidden>search</label>
+          <input type="text" class="form-control rounded-0" placeholder="What are you looking for?">
+          <label hidden>city</label>
+          <input type="text" class="form-control rounded-0 d-none d-md-block " placeholder="City">
+
+          <button class="btn btn-dark rounded-0 text-lightgray"><a
+              href="search-results.html">Search</a></button>
+        </form>
+      </div>
+    </section>
+    <section class="ads border-bottom bg-clear d-none d-md-block">
+      <div class="container pt-4 pb-5">
+
+        <div class="row">
+          <div class="arrow-prev flexbox-parent items-aligned-to-center">
+            <a href="#"></a>
+          </div>
+          <article class="col-10">
+            <h6 class="pb-2">HOT ADS</h6>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="position-relative">
+                  <div class="arrows-ad position-absolute bg-darkgray p-2">
+                  </div>
+                  <img class="img-fluid img-ad d-md-none" src='images/billboard2.jpg' alt='some content' />
+                  <img class="img-fluid img-ad d-none d-md-block" src='images/billboard.jpg' alt='some content' />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h6 class=" ad-info">THIS PRODUCT ROCKS</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aperiam, ducimus ipsa modi vero
+                  quam
+                  delectus quasi in eum non reiciendis maxime eius porro pariatur numquam ad ea exercitationem
+                  voluptate.
+                </p>
+                <p> Another line of text</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-pink text-light px-4">$450</button>
+                  <button type="button" class="btn btn-pink text-light border-left px-4"><i
+                      class="fas fa-shopping-cart pr-2"></i>Purchase details</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <div class="arrow-next flexbox-parent items-aligned-to-center">
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container separator border-bottom py-3">
+      <div class="row">
+        <div class="title">
+          <h6 class="col d-inline pr-0 title-cat"><i class="fas fa-dice-d20"></i>
+            Adhesives</h6>
+          <span class="col detail d-inline text-nowrap"> (Roof accesories, home accesories)</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="carousel py-4 container">
+
+      <div id="carousel" class="carousel slide row content-justified-to-center" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="wrapper">
+              <div class="card-deck products-row row ">
+
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/paternit.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Paternit</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 ">
+                  <img class="img-fluid" src="images/sellazinc.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Sellazinc</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="w-100 d-md-none py-1"></div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/zinclavos.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Zinclavos</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/roofcolor.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Roofcolor</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 d-none d-md-block">
+                  <img class="img-fluid" src="images/fijatodo.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Fijatodo</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a><span
+                      class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper">
+              <div class="card-deck products-row row  ">
+
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/superamigos.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Superamigos</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 ">
+                  <img class="img-fluid" src="images/plastilina.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Plastilina Industrial</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="w-100 d-md-none py-1"></div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/mampostero.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Mampostero</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/ceramico.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Ceramico</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 d-none d-md-block">
+                  <img class="img-fluid" src="images/unionconcreto.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Unionconcreto</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-md-block">
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container separator border-bottom py-3">
+      <div class="row">
+        <div class="title">
+          <h6 class="col d-inline pr-0 title-cat"><i class="fas fa-cloud-rain pr-2"></i>
+            Waterproofings</h6>
+          <span class="col detail d-inline text-nowrap"> (Dump water, leakings, basements)</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="carousel py-4 container">
+      <div id="carousel2" class="carousel slide row flexbox-parent" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="wrapper">
+              <div class="card-deck products-row row  ">
+
+                <div class="card rounded-0 col-6 px-2">
+                  <img class="img-fluid" src="images/impa.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Impa</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 col-6 mx-2">
+                  <img class="img-fluid" src="images/impermuro.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Impermuro</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="w-100 d-md-none py-1"></div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/imperlosas.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Imperlosas</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/hidrofugo.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Hidrofugo</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 d-none d-md-block">
+                  <img class="img-fluid" src="images/tarro.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Asfaltique</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper">
+              <div class="card-deck products-row row  ">
+
+                <div class="card rounded-0 col-6 px-2">
+                  <img class="img-fluid" src="images/impa.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Impa</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 col-6 mx-2">
+                  <img class="img-fluid" src="images/impermuro.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Impermuro</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="w-100 d-md-none py-1"></div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/imperlosas.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Imperlosas</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/hidrofugo.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Hidrofugo</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 d-none d-md-block">
+                  <img class="img-fluid" src="images/tarro.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Asfaltique</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a><span
+                      class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-md-block">
+          <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container separator border-bottom py-3">
+      <div class="row">
+        <div class="title">
+          <h6 class="col d-inline pr-0 title-cat"><i class="fas fa-paint-roller"></i>
+            Coverings</h6>
+          <span class="col detail d-inline text-nowrap"> (Paintings, stuccos, aditives, epoxy)</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="carousel py-4 container">
+      <div id="carousel3" class="carousel slide row flexbox-parent" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="wrapper">
+              <div class="card-deck products-row row  ">
+
+                <div class="card rounded-0 col-6 px-2">
+                  <img class="img-fluid" src="images/tarro2.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Water paint</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 col-6 mx-2">
+                  <img class="img-fluid" src="images/epoxico.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Epoxy paint</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="w-100 d-md-none py-1"></div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/estuco.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Stucco</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/relleno.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Fillers</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 d-none d-md-block">
+                  <img class="img-fluid" src="images/hidrocem.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Aditive</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a><span
+                      class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper">
+              <div class="card-deck products-row row  ">
+
+                <div class="card rounded-0 col-6 px-2">
+                  <img class="img-fluid" src="images/piesdescalzos.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Pies descalzos</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 col-6 mx-2">
+                  <img class="img-fluid" src="images/limpiafragua.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Limpiador</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="w-100 d-md-none py-1"></div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/epofix.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Anclajes</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0">
+                  <img class="img-fluid" src="images/arquiflex.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Arquiflex</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a>
+                    <span class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+                <div class="card rounded-0 d-none d-md-block">
+                  <img class="img-fluid" src="images/hidrocem.jpg" alt="">
+                  <div class="card-body pt-0">
+                    <h6 class="card-title product-name mb-1">Aditive</h6>
+                    <p class="card-text status text-zattix mb-1">New</p>
+                    <p class="more-text mb-1 pb-3">From: San Francisco</p>
+                    <a class="plus text-center text-lightgray font-weight-light p-1 d-inline-block border">+</a><span
+                      class="text-zattix price font-weight-bolder float-right align-content-end mt-4">$450</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-md-block">
+          <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="about  border-top bg-clear">
+      <div class="container-xl py-4">
+        <div class="row flexbox-parent">
+          <div class="col-12 col-sm-3 text-center">
+            <img class="img-fluid" src="images/footer-logo.png" alt="">
+            <p class="pt-3 text-justify"><small>ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis
+                iusto animi ad soluta obcaecati ducimus at. Cupiditate, soluta repellat. Doloribus, quas! Nulla sequi,
+                perferendis nesciunt tenetur placeat deserunt vitae!</small> </p>
+          </div>
+          <div class="col-4 col-sm-2 offset-sm-1">
+            <h6 class="text-pink border-bottom border-danger"><small>CATEGORIES</small></h6>
+            <div class="flexbox-parent">
+              <div class="col-6">
+                <nav class="nav items-to-column nav-bottom">
+                  <a class="nav-link pl-0 text-lightgray" href="#">Active</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                </nav>
+              </div>
+              <div class="col-6">
+                <nav class="nav items-to-column nav-bottom">
+                  <a class="nav-link pl-0 text-lightgray" href="#">Active</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                  <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-sm-2  offset-md-1">
+            <h6 class="text-pink border-bottom border-danger"><small>NAVIGATION</small></h6>
+            <nav class="nav items-to-column nav-bottom">
+              <a class="nav-link pl-0 text-lightgray" href="#">Active</a>
+              <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+              <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+              <a class="nav-link pl-0 text-lightgray" href="#">Link</a>
+            </nav>
+          </div>
+          <div class="col-4 location col-sm-3 pl-0 pl-sm-2 pl-md-3 pl-xl-5 items-aligned-to-end">
+            <h6 class="text-pink border-bottom border-danger invisible"><small>GEO</small></h6>
+            <div class="flexbox-parent">
+              <h6 class="flexbox-item text-pink d-inline pr-3 text-uppercase country"><small>Country</small></h6>
+              <span
+                class="flexbox-item px-3 text-lightgray py-2 d-inline-block border w-50 text-center"><small>Holland</small></span>
+            </div>
+            <div class="pt-1 flexbox-parent">
+              <h6 class="text-pink d-inline pr-3 text-uppercase"><small>Language</small></h6>
+              <span
+                class="flexbox-item px-3 text-lightgray py-2 d-inline-block border w-50 text-center"><small>English</small></span>
+            </div>
+            <div class="pt-1 flexbox-parent">
+              <h6 class="text-pink d-inline pr-3 text-uppercase"><small>Currency</small></h6>
+              <span class="flexbox-item px-3 text-lightgray py-2 d-inline-block border w-50 text-center"><small
+                  class="text-nowrap">
+                  Dollars</small></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="copyright border-top bg-clear">
+    <div class="container-xl py-2">
+      <p class="pt-2 text-justify">© 2008 Zattix Inc. All rights reserved. Designed by <a
+          href="https://www.behance.net/gallery/24796463/ZATTIX">Mohammed Awad</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

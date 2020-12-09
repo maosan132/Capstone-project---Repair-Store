@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:900&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--lightgray);
+  line-height: 1;
+  font-size: 14px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--darkgray);
+}
+
+.big-logo {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+a.active,
+.ad-info,
+.copyright a {
+  color: var(--pink);
+}
+
+a.active:hover {
+  color: var(--lightgray);
+}
+
+.plus {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.btn-zattix {
+  font-size: 14px;
+}
+
+.detail {
+  font-size: 12px;
+}
+
+.about h6 {
+  font-weight: bold;
+}
+
+.copyright p {
+  font-size: 12px;
+}
+
+@media (max-width: 546px) {
+  nav a {
+    font-size: 2.8vmin;
+  }
+
+  .resize,
+  .detail {
+    font-size: 2.9vmin;
+  }
+
+  .title-cat {
+    font-size: 4vmin;
+  }
+
+  .copyright p {
+    font-size: 2.5vmin;
+  }
+}

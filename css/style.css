@@ -1,0 +1,120 @@
+html {
+  overflow-x: hidden;
+}
+
+.topbar {
+  margin: 0 15px;
+}
+
+.login {
+  cursor: pointer;
+}
+
+.arrows-ad::after {
+  content: " ⟨   ⟩ ";
+  font-weight: bolder;
+  white-space: pre;
+  color: var(--pink);
+}
+
+.products-row {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.big-logo {
+  line-height: 0.85;
+}
+
+.badge {
+  left: -5px;
+  top: -5px;
+}
+
+.carousel-inner,
+.carousel.wrapper {
+  margin: 0 auto;
+}
+
+.separator,
+.carousel {
+  max-width: 1180px;
+}
+
+.plus {
+  width: 30px;
+  height: 30px;
+  line-height: 1;
+}
+
+.plus:hover {
+  border-color: var(--pink) !important;
+  background: var(--darkgray);
+  color: var(--pink) !important;
+  cursor: pointer;
+}
+
+.card {
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+  max-width: 46%;
+}
+
+.country {
+  letter-spacing: 1px;
+}
+
+.page-link {
+  color: var(--lightgray);
+  border-radius: 5px;
+}
+
+.page-item {
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  color: var(--pink);
+}
+
+.active .page-link {
+  background: var(--pink) !important;
+  border-color: white !important;
+}
+
+@media (max-width: 546px) {
+  .login {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  .separator,
+  .carousel {
+    max-width: 1180px;
+    margin-left: 1%;
+  }
+
+  .location span {
+    width: 85% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-inner {
+    width: 95%;
+  }
+
+  .carousel-control-prev {
+    width: 30px;
+  }
+
+  .carousel-control-next {
+    width: 30px;
+  }
+
+  .card {
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+  }
+}
