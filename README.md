@@ -27,7 +27,7 @@ The store is an e-commerce site offering products that help us with repairments 
 
 - Github: [@githubhandle](https://github.com/maosan132)
 - Twitter: [@twitterhandle](https://twitter.com/maosan132)
-- Linkedin: [linkedin](https://www.linkedin.com/in/mauricio-santos-a7292910)
+- Linkedin: [linkedin](https://www.linkedin.com/in/mauricsantos/)
 
 
 ## 🤝 Contributing
